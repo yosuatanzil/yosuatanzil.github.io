@@ -1,13 +1,59 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+/* Hero Banner/Jumbotron */
 .jumbotron {
+  color: White;
   padding-top: 6rem;
-  background-color: #e2edff;
+  background-color: #041081;
+}
+
+.card {
+  background-color: rgb(10, 82, 216);
+  color: white;
+}
+
+.rounded-circle {
+  transition: ease-in-out 0.2s;
+}
+
+.rounded-circle:hover {
+  width: 230px;
 }
 
 /* Projects */
 #projects {
-  background-color: #e2edff;
+  background-color: #041081;
+}
+
+/* About */
+.about {
+  transition: ease-in-out 0.2s;
 }
 
 section {
   padding-top: 5rem;
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+  border: #01073d 3px solid;
+  border-radius: 2px;
+  width: 14px;
+  background-image: linear-gradient(rgb(3, 61, 168), #00aeff);
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(2, 25, 68);
 }
